@@ -1,6 +1,6 @@
 <?php
-
-
+echo 'Hello World';
+/**
 	echo '<table border = '1' style = 'width = 100%'>';
 	//first row manually
 	echo '<tr>';
@@ -17,5 +17,5 @@
 	}
 	
 	echo '</table>';
-	
+	*/
 ?>
