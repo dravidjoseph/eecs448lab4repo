@@ -8,23 +8,23 @@ $q5 = $_POST["uruguay"];
 
 $score = 0;
 
-if(q1 == "Chisinau"){
+if($q1 == "Chisinau"){
+	++$score;
+}
+if($q2 == "Kathmandu"){
+	++$score;
+}
+if($q3 == "Accra"){
+	++$score;
+}
+if($q4 == "Tegucigalpa"){
 	++score;
 }
-if(q2 == "Kathmandu"){
-	++score;
-}
-if(q3 == "Accra"){
-	++score;
-}
-if(q4 == "Tegucigalpa"){
-	++score;
-}
-if(q5 == "Montevideo"){
+if($q5 == "Montevideo"){
 	++score;
 }
 
-echo '<br> Your score is '.(score/5)*100.'%<br>';
+echo '<br> Your score is '.($score/5)*100.'%<br>';
 
 
 ?>
