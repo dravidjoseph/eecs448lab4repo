@@ -1,9 +1,10 @@
 <?php
 echo 'Hello World';
-echo "5 + 10 = <b>" . 15 . "</b><br>";
-echo "7 + 13 = <b>" . 20 . "</b><br>";
-echo "2 + 4 = <b>" . 6 . "</b>";
-
+echo '<table border = '1' style = 'width = 100%'>';
+echo '<tr>';
+echo '<td>'.10.'</td>';
+echo '</tr>';
+echo '</table>';
 /**
 	echo '<table border = '1' style = 'width = 100%'>';
 	//first row manually
