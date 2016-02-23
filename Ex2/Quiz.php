@@ -10,17 +10,17 @@ echo "Question 1: What is the capital of Moldova?<br>";
 echo "You answered: ".$q1."<br>";
 echo "Correct answer: Chisinau<br><br>";
 echo "Question 2: What is the capital of Nepal?<br>";
-echo "You answered: ".$q2."<br><br>";
-echo "Correct answer: Kathmandu<br>";
+echo "You answered: ".$q2."<br>";
+echo "Correct answer: Kathmandu<br><br>";
 echo "Question 3: What is the capital of Ghana?<br>";
-echo "You answered: ".$q3."<br><br>";
-echo "Correct answer: Accra<br>";
+echo "You answered: ".$q3."<br>";
+echo "Correct answer: Accra<br><br>";
 echo "Question 4: What is the capital of Honduras?<br>";
-echo "You answered: ".$q4."<br><br>";
-echo "Correct answer: Tegucigalpa<br>";
+echo "You answered: ".$q4."<br>";
+echo "Correct answer: Tegucigalpa<br><br>";
 echo "Question 5: What is the capital of Uruguay?<br>";
-echo "You answered: ".$q5."<br><br>";
-echo "Correct answer: Montevideo<br>";
+echo "You answered: ".$q5."<br>";
+echo "Correct answer: Montevideo<br><br>";
 
 $score = 0;
 
