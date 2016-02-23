@@ -18,10 +18,10 @@ if($q3 == "Accra"){
 	++$score;
 }
 if($q4 == "Tegucigalpa"){
-	++score;
+	++$score;
 }
 if($q5 == "Montevideo"){
-	++score;
+	++$score;
 }
 
 echo '<br> Your score is '.($score/5)*100.'%<br>';
