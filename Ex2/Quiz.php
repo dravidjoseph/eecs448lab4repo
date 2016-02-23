@@ -33,7 +33,7 @@ if($q5 == "Montevideo"){
 echo $score;
 echo $score/5;
 
-echo '<br> Your score is '.$score*20.'%<br>';
+echo '<br> Your score is '.$score*20.'%%';
 
 
 ?>
