@@ -1,9 +1,9 @@
 <?php
 
 echo 'Hello World';
-echo "5 + 10 = <b>" . sum(5, 10) . "</b><br>";
-echo "7 + 13 = <b>" . sum(7, 13) . "</b><br>";
-echo "2 + 4 = <b>" . sum(2, 4) . "</b>";
+echo "5 + 10 = <b>" . 15 . "</b><br>";
+echo "7 + 13 = <b>" . 20 . "</b><br>";
+echo "2 + 4 = <b>" . 6 . "</b>";
 /**
 	echo '<table border = '1' style = 'width = 100%'>';
 	//first row manually
