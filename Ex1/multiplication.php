@@ -1,5 +1,5 @@
 <?php
-echo '<h1>EECS 448 Lab 4 Multiplcation Table<h1>';
+	echo '<h1>EECS 448 Lab 4 Multiplication Table<h1>';
 	//Beginning of table
 	echo '<table border = "1" style = "width = 100%">';
 	
@@ -9,7 +9,7 @@ echo '<h1>EECS 448 Lab 4 Multiplcation Table<h1>';
 	echo '<td>*</td>';
 	
 	//first row of numbers
-	for($i = 1; $i <=10; ++$i){
+	for($i = 1; $i <=100; ++$i){
 		//number in bold
 		echo '<td><strong>'.$i.'</strong></td>';
 	}
@@ -18,11 +18,11 @@ echo '<h1>EECS 448 Lab 4 Multiplcation Table<h1>';
 	
 	
 	
-	for($i = 1; $i <= 10;++$i){
+	for($i = 1; $i <= 100;++$i){
 		//prints second multiplicand
 		echo '<td><strong>'.$i.'</strong></td>';
 		//Prints corresponding product
-		for($j = 1; $j <= 10; ++$j){
+		for($j = 1; $j <= 100; ++$j){
 			echo '<td>'.$i*$j.'</td>';
 		}
 	//ends row
