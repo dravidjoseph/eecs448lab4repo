@@ -1,10 +1,13 @@
 <?php
 echo 'Hello World';
-echo '<table border = '1' style = 'width = 100%'>';
-echo '<tr>';
-echo '<td>'.10.'</td>';
-echo '</tr>';
-echo '</table>';
+function sum($x, $y) {
+    $z = $x + $y;
+    return $z;
+}
+
+echo "5 + 10 = <b>" . sum(5, 10) . "</b><br>";
+echo "7 + 13 = <b>" . sum(7, 13) . "</b><br>";
+echo "2 + 4 = <b>" . sum(2, 4) . "</b>";
 /**
 	echo '<table border = '1' style = 'width = 100%'>';
 	//first row manually
