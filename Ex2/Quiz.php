@@ -7,6 +7,10 @@ $q4 = $_POST["honduras"];
 $q5 = $_POST["uruguay"];
 
 echo $q1;
+echo $q2;
+echo $q3;
+echo $q4;
+echo $q5;
 
 $score = 0;
 /**
