@@ -6,8 +6,10 @@ $q3 = $_POST["ghana"];
 $q4 = $_POST["honduras"];
 $q5 = $_POST["uruguay"];
 
-$score = 0;
+echo $q1;
 
+$score = 0;
+/**
 if($q1 == "Chisinau"){
 	++$score;
 }
@@ -25,6 +27,6 @@ if($q5 == "Montevideo"){
 }
 
 echo '<br> Your score is '.($score/5)*100.'%<br>';
-
+*/
 
 ?>
