@@ -39,6 +39,9 @@ if($q4 == "Tegucigalpa"){
 if($q5 == "Montevideo"){
 	++$score;
 }
+
+echo "You answered ".$score." questions correctly.";
+
 $score = $score * 20;
 
 echo "<br><br> Your score is ".$score."%";
