@@ -2,7 +2,9 @@
 
 echo '<table border = "1" style = "width = 100%">';
 echo '<tr>';
-echo '<td>10</td>';
+for($i = 1; $i <=10; ++$i){
+	echo '<td>'.$i.'</td>';
+}
 echo '</tr>';
 echo '</table>';
 
