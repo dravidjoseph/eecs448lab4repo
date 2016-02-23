@@ -13,10 +13,13 @@ echo $q4;
 echo $q5;
 
 $score = 0;
-/**
+echo $score;
+
 if($q1 == "Chisinau"){
 	++$score;
 }
+echo $score;
+/*
 if($q2 == "Kathmandu"){
 	++$score;
 }
