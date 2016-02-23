@@ -31,6 +31,7 @@ if($q5 == "Montevideo"){
 	++$score;
 }
 echo $score;
+echo $score/5;
 /*
 echo '<br> Your score is '.($score/5)*100.'%<br>';
 */
