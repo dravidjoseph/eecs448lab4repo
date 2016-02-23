@@ -30,10 +30,10 @@ if($q4 == "Tegucigalpa"){
 if($q5 == "Montevideo"){
 	++$score;
 }
+$score = $score * 20;
 echo $score;
-echo $score/5;
-
+/*
 echo '<br> Your score is '.$score*20.'%%';
-
+*/
 
 ?>
