@@ -2,8 +2,8 @@
 
 echo '<table border = "1" style = "width = 100%">';
 echo '<tr>';
-echo '<td>10</td>'
-echo '</tr>'
+echo '<td>10</td>';
+echo '</tr>';
 echo '</table>';
 
 /**
