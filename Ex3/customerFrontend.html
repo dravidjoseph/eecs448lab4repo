@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<script type = "text/javascript" src = "formChecker.js"></script>
+		<link href=”style.css” rel=”stylesheet” type=”text/css”/>
+	</head>
+	<body>
+		<form onsubmit = "checkout()">
+			Username:
+			<input type = "text" name = "username" id = "user">
+			<br>
+			Password:
+			<input type = "text" name = "password" id = "pw">
+			<br><br><br><br>
+			<table border = "1" style = "width = 100$">
+				<tr>
+					<td><strong>Item</strong></td>
+					<td>Apple</td>
+					<td>Banana</td>
+					<td>Pear</td>
+				</tr>
+				<tr>
+					<td><strong>Select</strong></td>
+					<td><input type="checkbox" name="item" value="Apple"></td>
+					<td><input type="checkbox" name="item" value="Banana"></td>
+					<td><input type="checkbox" name="item" value="Pear"></td>
+				</tr>
+				<tr>
+					<td><strong>Quantity</strong></td>
+					<td><input type = "text" name = "quantity" id = "qapple"></td>
+					<td><input type = "text" name = "quantity" id = "qbanana"></td>
+					<td><input type = "text" name = "quantity" id = "qpear"></td>
+				</tr>
+				
+			</table>	
+			
+			Shipping:<br>
+			<input type = "radio" name = "shipping" value = "week" checked>Free 7 day<br>
+			<input type = "radio" name = "shipping" value = "overnight">Overnight<br>
+			<input type = "radio" name = "shipping" value = "three" >3-day<br>
+			<button onclick = "reset()">Reset</button>
+			<input type = "submit" value = "Checkout">
+		</form>
+	
+		
+		
+		
+	</body>
+
+</html>
