@@ -16,7 +16,7 @@
 
 	
 	#cost of each fruit
-	$costPerApple = 2.50;
+	$costPerApple = 2.00;
 	$costPerBanana = 3.00;
 	$costPerPear = 7.00;
 	
@@ -48,34 +48,34 @@
 			echo "<td></td>";
 			echo "<td><strong> Quantity</strong> </td>";
 			echo "<td><strong> Cost Per Item</strong></td>";
-			echo "<td> Sub Total </td>";
+			echo "<td> <strong>Subtotal</strong></td>";
 		echo "</tr>";
 		echo "<tr>";
 			echo "<td><strong>Apple</strong></td>";
 			echo "<td> $q1 </td>";
-			echo "<td> $2.50 </td>";
+			echo "<td> $2.00 </td>";
 			echo "<td> $totalApple </td>";
 		echo "</tr>";
 		echo "<tr>";
 			echo "<td><strong>Banana</strong></td>";
 			echo "<td> $q2 </td>";
 			echo "<td> $3.00 </td>";
-			echo "<td> $totalBanana </td>";
+			echo "<td>$$totalBanana </td>";
 		echo "</tr>";
 		echo "<tr>";
 			echo "<td><strong>Pear</strong></td>";
 			echo "<td> $q3 </td>";
 			echo "<td> $7.00 </td>";
-			echo "<td> $totalPear </td>";
+			echo "<td> $$totalPear </td>";
 		echo "</tr>";
 		echo "<tr>";
 			echo "<td> <strong>Shipping</strong> </td>";
 			echo "<td colspan='2'> $typeShipping </td>";
-			echo "<td> $totalShipping </td>";
+			echo "<td> $$totalShipping </td>";
 		echo "</tr>";
 		echo "<tr>";
 			echo '<td colspan="3"> <strong>Total Cost</strong> </td>';
-			echo "<td> $total </td>";
+			echo "<td> $$total </td>";
 		echo "</tr>";
 	echo "</table>";
 ?>
