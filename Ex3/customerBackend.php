@@ -34,9 +34,9 @@
   	  	$totalShipping = 5.00;
   		$typeShipping = "Three Day";
 	}
-	//shipping is $10 for overnight
+	//shipping is $50 for overnight
 	else{
-  	  	$totalShipping = 10.00;
+  	  	$totalShipping = 50.00;
   		$typeShipping = "Overnight";
 	}
 	
@@ -54,7 +54,7 @@
 			echo "<td><strong>Apple</strong></td>";
 			echo "<td> $q1 </td>";
 			echo "<td> $2.00 </td>";
-			echo "<td> $totalApple </td>";
+			echo "<td> $$totalApple </td>";
 		echo "</tr>";
 		echo "<tr>";
 			echo "<td><strong>Banana</strong></td>";
