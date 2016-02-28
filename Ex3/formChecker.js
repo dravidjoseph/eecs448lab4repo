@@ -1,23 +1,39 @@
 function checkout(){
-	window.alert("Checkout works")
+	//username and password
+	var user = document.getElementById("user").value;
+	var password = document.getElementById("pw").value;
 	
-	var user = document.getElementById("user")
-	var password = document.getElementById("pw")
-	var shipping = document.getElementById("shipping").value
+	//quantities of items
+	var q1 = parseInt(document.getElementById("qapple").value);
+	var q2 = parseInt(document.getElementById("qbanana").value);
+	var q3 = parseInt(document.getElementById("qpear").value);
 	
-	var q1 = document.getElementById("qapple")
-	var q2 = document.getElementById("qbanana")
-	var q3 = document.getElementByID("qpear")
+	//shipping value
+	var shipping = document.getElementById("shipping").value;
+	window.alert(shipping)
 	
-	//username check
-	if(password === ""){
-		window.alert("Your password is blank.  Enter a password")
+	//check user string
+	var check = /\b\w+@\w+\.com\b/;
+	
+	//username
+	if(!userCheck.test(user)){
+		
+		window.alert("Invalid username.  Give it in the form user@domain.com");
+		return false;
 	}
-	if(q1 === "" || q2 === "" || q3 === ""){
-		window.alert("One or more of your quantities is blank.  Please adjust.")
+	//password
+	if(password === null || password == ""){
+		window.alert("Password cannot be blank.");
+		return false;
 	}
-	if(q1<0 || q2 <0 || q3 <0){
-		window.alert("One or more of your quantities is negative.  Please adjust.")
+	//shipping has default value so no need to check.
+	
+	//if any of the quantities are nonnegative
+	if((isNaN(q1)|| q1 < 0)||(isNaN(q2)||q2 < 0)||(isNaN(q3) || q3 < 0)){
+		window.alert("All quantities must be nonnegative integers");
+		return false;
 	}
-	//Shipping automatically defaults, so no need to check
+		
+	return true;
+	
 }

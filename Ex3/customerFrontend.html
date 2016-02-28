@@ -1,10 +1,12 @@
 <html>
 	<head>
+		<title>Online Store</title>
 		<script type = "text/javascript" src = "formChecker.js"></script>
 		<link href=”style.css” rel=”stylesheet” type=”text/css”/>
 	</head>
 	<body>
-		<form onsubmit = "checkout()">
+		<h1>Fruit Store!</h1>
+		<form onsubmit = " return checkout()" action ="customerBackend.php" method = "post">
 			Username:
 			<input type = "text" name = "username" id = "user">
 			<br>
@@ -19,25 +21,27 @@
 					<td>Pear</td>
 				</tr>
 				<tr>
-					<td><strong>Select</strong></td>
-					<td><input type="checkbox" name="item" value="Apple"></td>
-					<td><input type="checkbox" name="item" value="Banana"></td>
-					<td><input type="checkbox" name="item" value="Pear"></td>
+					<td><strong>Cost Per Item</strong></td>
+					<td>$2.50</td>
+					<td>$3.00</td>
+					<td>$7.00</td>
 				</tr>
 				<tr>
 					<td><strong>Quantity</strong></td>
-					<td><input type = "text" name = "quantity" id = "qapple"></td>
-					<td><input type = "text" name = "quantity" id = "qbanana"></td>
-					<td><input type = "text" name = "quantity" id = "qpear"></td>
+					<td><input type = "text" name = "qapple" id = "qapple"></td>
+					<td><input type = "text" name = "qbanana" id = "qbanana"></td>
+					<td><input type = "text" name = "qpear" id = "qpear"></td>
 				</tr>
 				
 			</table>	
 			
 			Shipping:<br>
-			<input type = "radio" name = "shipping" value = "week" checked>Free 7 day<br>
-			<input type = "radio" name = "shipping" value = "overnight">Overnight<br>
-			<input type = "radio" name = "shipping" value = "three" >3-day<br>
-			<button onclick = "reset()">Reset</button>
+			<input type="radio" name="shipping" id="shipping" value="week" checked> Free 7 Day<br>
+			<input type="radio" name="shipping" id="shipping" value="overnight"> $10 Overnight<br>
+			<input type="radio" name="shipping" id="shipping" value="3-day"> $5 3-day<br>
+			
+			
+			<input type ="reset" value = "Reset">
 			<input type = "submit" value = "Checkout">
 		</form>
 	
@@ -47,3 +51,4 @@
 	</body>
 
 </html>
+
