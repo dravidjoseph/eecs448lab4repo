@@ -5,7 +5,7 @@
 	echo "<h1> Fruit Store Receipt </h1>";
 
 	#User, password and shipping
-	$user = $_POST["username"];
+	$user = $_POST["user"];
 	$password = $_POST["password"];
 	$shipping = $_POST["shipping"];
 	
@@ -43,7 +43,7 @@
 	//calculate total
 	$total = $totalApple + $totalBanana + $totalPear + $totalShipping;
 	echo "<p>Username: $user <br> Password: $password </p>";
-	echo "<table>";
+	echo "<table border = "1" style = "width = 100%">";
 		echo "<tr>";
 			echo "<td></td>";
 			echo "<td><strong> Quantity</strong> </td>";
@@ -75,7 +75,7 @@
 		echo "</tr>";
 		echo "<tr>";
 			echo "<th colspan='3'> Total Cost </th>";
-			echo "<td> $$total </td>";
+			echo "<td> $total </td>";
 		echo "</tr>";
 	echo "</table>";
 ?>
