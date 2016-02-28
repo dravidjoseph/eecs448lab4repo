@@ -1,7 +1,7 @@
 function checkout(){
 	//username and password
 	var user = document.getElementById("user").value;
-	var password = document.getElementById("pw").value;
+	var password = document.getElementById("password").value;
 	
 	//quantities of items
 	var q1 = parseInt(document.getElementById("qapple").value);
@@ -10,13 +10,12 @@ function checkout(){
 	
 	//shipping value
 	var shipping = document.getElementById("shipping").value;
-	window.alert(shipping)
 	
 	//check user string
 	var check = /\b\w+@\w+\.com\b/;
 	
 	//username
-	if(!userCheck.test(user)){
+	if(!check.test(user)){
 		
 		window.alert("Invalid username.  Give it in the form user@domain.com");
 		return false;
