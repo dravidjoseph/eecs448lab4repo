@@ -43,7 +43,7 @@
 	//calculate total
 	$total = $totalApple + $totalBanana + $totalPear + $totalShipping;
 	echo "<p>Username: $user <br> Password: $password </p>";
-	echo "<table border = "1" style = "width = 100%">";
+	echo '<table border = "1" style = "width = 100%">';
 		echo "<tr>";
 			echo "<td></td>";
 			echo "<td><strong> Quantity</strong> </td>";
@@ -69,12 +69,12 @@
 			echo "<td> $totalPear </td>";
 		echo "</tr>";
 		echo "<tr>";
-			echo "<th> Shipping </th>";
+			echo "<td> <strong>Shipping</strong> </td>";
 			echo "<td colspan='2'> $typeShipping </td>";
 			echo "<td> $totalShipping </td>";
 		echo "</tr>";
 		echo "<tr>";
-			echo "<th colspan='3'> Total Cost </th>";
+			echo '<td colspan="3"> <strong>Total Cost</strong> </td>';
 			echo "<td> $total </td>";
 		echo "</tr>";
 	echo "</table>";
