@@ -6,6 +6,7 @@ $q3 = $_POST["ghana"];
 $q4 = $_POST["honduras"];
 $q5 = $_POST["uruguay"];
 
+//print out user responses and correct answers
 echo "Question 1: What is the capital of Moldova?<br>";
 echo "You answered: ".$q1."<br>";
 echo "Correct answer: Chisinau<br><br>";
@@ -22,8 +23,10 @@ echo "Question 5: What is the capital of Uruguay?<br>";
 echo "You answered: ".$q5."<br>";
 echo "Correct answer: Montevideo<br><br>";
 
+//holds the user score
 $score = 0;
 
+//check user answers
 if($q1 == "Chisinau"){
 	++$score;
 }
@@ -42,6 +45,7 @@ if($q5 == "Montevideo"){
 
 echo "You answered ".$score." questions correctly.";
 
+//all you need to do with 5 questions
 $score = $score * 20;
 
 echo "<br><br> Your score is ".$score."%";
