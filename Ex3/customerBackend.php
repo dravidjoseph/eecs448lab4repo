@@ -1,6 +1,6 @@
 <?php
 	#css
-	echo "<link rel='stylesheet' type='text/css' href='style.css' />";
+	echo '<link href = "style.css" rel="stylesheet" type = "text/css"/>';
 	#Header
 	echo "<h1> Fruit Store Receipt </h1>";
 
